@@ -1,8 +1,25 @@
 import { example } from './data.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/lol/lol.js';
-// import data from './data/rickandmorty/rickandmorty.js';
-// import data from './data/ghibli/ghibli.js';
-// import data from './data/athletes/athletes.js';
+import data from './data/lol/lol.js';
+const mostrarInfos = Object.values(data.data);
 
-console.log(example, data);
+function printarCards(type) {
+    const mostrarCards = document.getElementById("container-dos-cards");
+    mostrarCards.innerHTML = type.map((item) =>
+        `<div class ="print-cards">
+ <img class="imagem-campeão" src="${item.splash}">  
+ <p> versão:${item.version}</p>
+ <p> titulo:${item.title}</p>
+ <p> nome:${item.name}</p>
+ <p> chave:${item.key}</p>
+</div>`
+
+
+
+    ).join("")
+
+
+}
+
+
+printarCards(mostrarInfos);
+
