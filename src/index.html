@@ -8,34 +8,43 @@
     <link rel="stylesheet" href="style.css">
     <title>Data lovers</title>
 </head>
-
+   
+</div>
 <body>
- 
+    
     <header>
+        <div class="container" >
+            <div class="rays" ></div>
+            <div class="rays2" ></div>
+
+        </div>
         
-     <img src="icone.png"/>
-     <h1 class="league">League of legends</h1>
+        
+     <img src="2logo-lol.png"/>
+     <h1 class="league">
+          QUAL CAMPEÃO VOCÊ SERÁ HOJE?</h1>
 
     </header>
     <main>
         <nav class="nav-filtros">
             <select name="" title="filtros-campeao" class="filtros" id="gender-filter">
-                <option value="" selected hidden>Gênero</option>
-                <option value="Male">Masculino</option>
-                <option value="Female">Feminino</option>
+                <option value="" selected hidden>Recuperação de saúde</option>
+                <option value="Male">porte de anúncio</option>
+                <option value="Female">Recuperação da saúde</option>
+                <option value="Female">Recuperação de mana</option>
             </select>
             <select title="filtros-stat" class="filtros" id="status-filter">
                 <option value="" selected hidden>Dificuldade</option>
-                <option value="baixo">baixo</option>
-                <option value="moderado">moderado</option>
+                <option value="baixo">Baixa</option>
+                <option value="moderado">Média</option>
                 <option value="Alta">Alta</option>
             </select>
             <select title="filtros-espec" class="filtros" id="species-filter">
-                <option value="" selected hidden>Função</option>
-                <option value="Assassinos">Assassinos</option>
-                <option value="Lutadores">Lutadores</option>
-                <option value="Magos">Magos</option>
-                <option value="Atiradores">Atiradores</option>
+                <option value="" selected hidden>Assassinos</option>
+                <option value="Fighter">Fighter</option>
+                <option value="Marksman">Marksman</option>
+                <option value="Mago ou Feiticeiro">Mago ou Feiticeiro</option>
+                <option value="Assassino">Assassino</option>
                 <option value="Tanques">Tanques</option>
                 <option value="Suporte">Suporte</option>
 
@@ -47,7 +56,7 @@
                 <option value="z-a">Z - A</option>
             </select>
         </nav>
-
+       
         <div class="form">
             <form class="buscar-e-limpar">
                 <input class="pesquisar" id="text-search" type="search" placeholder="Pesquisar campeão" />
@@ -55,9 +64,7 @@
                     value="Pesquisar" />
             </form>
         </div>
-        
-    
-
+               
         <main>
             <section class="card">
                 <div class="cards-container" id="container-dos-cards"></div>

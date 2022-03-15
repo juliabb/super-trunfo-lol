@@ -1,46 +1,19 @@
 # League of Legends (LoL)
+League of Legends é um jogo de estratégia online multiplayer. Tem milhões de jogadores em todo o mundo e, por enquanto, é um dos esports de referência e aquele que mais atrai público. Durante o jogo, as equipes trabalham juntas para alcançar uma condição de vitória que acontece destruindo a estrutura central na base da equipe inimiga.
 
-League of Legends es un juego de estrategia que se juega en línea y que es
-multijugador. Tiene millones de jugadores en todo el mundo y, por ahora es uno
-de los _esports_ de referencia y que más público atraen.
-Durante el juego, los equipos trabajan juntos para lograr una
-condición de victoria que sucede al destruir la estructura central en la base
-del equipo enemigo.
+Em todos os modos de jogo, os jogadores controlam personagens chamados campeões, que são escolhidos ou atribuídos a cada partida e que possuem um conjunto de habilidades únicas. É com esses campeões que se joga todo o jogo. Para entender um pouco mais sobre o jogo você pode entrar neste link.
 
-En todos los modos de juego, los jugadores controlan
-personajes llamados **campeones**, que son elegidos o asignados en cada partida,
-y que tienen un conjunto de habilidades únicas. Es con esos campeones con los
-que se juega toda la partida. Para entender un poco más del juego puedes entrar
-a este [link](https://www.redbull.com/es-es/5-consejos-empezar-jugar-league-of-legends#targetText=Lo%20primero%20que%20tienes%20que,donde%20lucha%20cinco%20contra%20cinco).
+# Descobertas
+Para poder escolher os campeões que vão lutar em um jogo, é importante que o jogador de LoL saiba qual é o papel de cada campeão.
 
-## Hallazgos
+Além da função, cada campeão tem diferentes níveis de ataque, por exemplo, dentro dos tanques existem campeões com diferentes níveis de ataque, defesa, velocidade ou potência. É importante que o jogador de LoL saiba quem é o mais poderoso ou o mais defensivo, para poder escolher o melhor grupo de campeões para um jogo. Eles estarão no seu time e lutarão contra o inimigo.
 
-* Para poder elegir a los campeones que van a combatir en una partida, es
-  importante para el jugador de LoL poder saber cuál es el rol de cada campeón.
-* Adicionalmente al rol, cada campeón tiene distintos niveles de ataque, por
-  ejemplo dentro de los _tanques_ hay campeones con distintos niveles de ataque,
-  defensa, velocidad o poder. Es importante para el jugador de LoL poder saber
-  quiénes son los más poderosos o lo más defensivos, para poder elegir al mejor
-  grupo de campeones para una partida.estarán
-  en tu equipo y que lucharán contra el enemigo.
-* Los campeones tienen distintos tipos de habilidades, algunas inherentes
-  (básicas/principales) a ellos y otras (pasivas/secundarias) que pueden ser
-  adquiridas. En ambos casos, estas habilidades pueden ir desarrollándose hasta
-  alcanzar su máximo nivel.
-* Los campeones tienen distintos roles en los que se desempeñan:
+Os campeões possuem diferentes tipos de habilidades, algumas inerentes (básicas/principais) a eles e outras (passivas/secundárias) que podem ser adquiridas. Em ambos os casos, essas habilidades podem ser desenvolvidas até atingirem seu nível máximo.
 
-  - Luchador: Especializado en combate cercano. Combinnan objetos de daño con
-    objetos de aguante. También se los conoce como _offtanks_.
-  - Tirador: Especializado en ataque a distancia. Popularmente conocido como
-    _AD Carry_ del inglés _attack damage carry_ o carreador de daño de ataque.
-  - Mago o Hechicero: Especializado en habilidades y daño mágico. Popularmente
-    conocido como _AP Carry_ del inglés _ability power carry_ o carreador de
-    poder de habilidad.
-  - Asesino: Especializado en emboscar al enemigo, atacando por sorpresa y
-    retirándose rápidamente. Su misión es eliminar al jugador más importante del
-    equipo enemigo (generalmente el tirador) aunque ello suponga morir él
-    también.
-  - Tanque: Especializado en resistencia. Su misión es absorber la mayor
-    cantidad de daño posible e iniciar las peleas.
-  - Apoyo o Soporte: Especializado en apoyar a su equipo y aportar visión en el
-    mapa mediante guardianes de visión (_wards_).
+# Os campeões têm diferentes papéis que desempenham:
+
+- Fighter: Especializado em combate corpo a corpo. Eles combinam itens de dano com itens de resistência. Eles também são conhecidos como offtanks.
+- Marksman: Especializado em ataque à distância. Popularmente conhecido como AD Carry do inglês attack damage carry ou attack damage carrier.
+- Mago ou Feiticeiro: Especializado em habilidades mágicas e danos. Popularmente conhecido como AP Carry do poder de poder inglês ou portador de poder de habilidade.
+- Assassino: Especializado em emboscar o inimigo, atacando de surpresa e recuando rapidamente. Sua missão é eliminar o jogador mais importante do time inimigo (geralmente o atirador), mesmo que isso signifique morrer.
+- Tanque: Especializado em resistência. Sua missão é absorver o máximo de dano possível e iniciar as lutas.
