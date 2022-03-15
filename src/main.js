@@ -17,3 +17,8 @@ function printarCards(data) {
 
 
 printarCards(mostrarInfos);
+const statusFilter = document.getElementById("status-filter")
+statusFilter.addEventListener("change",(event) => {
+
+
+})
