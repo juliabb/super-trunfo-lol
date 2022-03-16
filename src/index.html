@@ -1,88 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <header>
+    <input type="image" id="return" src="2logo-lol.png" alt="Lol">
+    <nav>
+      <ul>
+        <li><a id="goals" href="#">Objetivos do jogo</a></li>
+        <li><a id="btnChampion" href="#">Escolha um campeão</a></li>
+      </ul>
+    </nav>
+   </header> 
+   <section id="principal">
+     <main>
+      <div id="pag1">
+        <div class="containerVideo">
+            <video class="video" autoplay loop muted src="./img/League of Legends_Trim.mp4"></video>
+        </div>
+        <div id="text">
+          <h4>Conheça mais sobre os jogo!</h4>
+        </div>
+        <div id="resume">
+          <h3>O que é league of legends?</h3>
+          <p>League of Legends é um jogo de estratégia em equipe no qual duas equipes compostas por cinco poderosos campeões lutam para destruir a base uma da outra. Escolha entre 134 campeões para realizar jogadas épicas, garantir mortes e destruir torres enquanto você cavalga para a vitória.</p>
+          <h3> Dado Curioso </h3>
+        </div>
+        <div id="average"> 
+          <p id="showstatistic"> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Data lovers</title>
-</head>
+          </p>
+        </div>
+      </div>
+
+      <div id="pag1">
+        <form class=" btnRoles">
+          <input type="button" id="btnAll" value="Todos">
+          <input type="button" id="btnKiller" value="Assassinos">
+          <input type="button" id="btnMagic" value="Magos">
+          <input type="button" id="btnFighter" value="Lutadores">
+          <input type="button" id="btnMarksman" value="ATiradores">
+          <input type="button" id="btnTank" value="Tanques">
+          <input type="button" id="btnSupport" value="Apoios">
+          <form>
+            <select id="order">
+              <option disable select>Organize seus campeões</option>
+              <option value="btnAZ">A - Z</option>
+              <option value="btnZA">Z - A</option>
+            </select>
+          </form>  
+        </form>
+       <div id="cardPrincipal"></div> 
+      </div>
+
+      <div id="pag3">
+        <h3>Objetivo do jogo</h3>
+        <div class="objetivos">
+          <img src="" alt="Carril">
+          <p> 1. Escolha sua pista, jogue como seu melhor atirador ou como suporte na pista dupla; Lance feitiços na rota do meio ou enfrente um lutador na rota solo.</p>
+        </div>
+        <div class="objetivos">
+          <img src="" alt="Monstros épicos">
+          <p> 2. Domine a selva, em vez de ficar em uma pista, você pode caçar monstros na selva. Mate monstros épicos como Baron Nashor ou Dragons para desbloquear atualizações poderosas para sua equipe.</p>
+        </div>
+        <div class="objetivos">
+          <img src="./img/torretas.png" alt="Tempestades">
+          <p> 3. Destrua as torres para chegar ao nexo, em cada pista há torres defensivas entre sua equipe e a base inimiga. Derrube essas estruturas e forje seu caminho para a vitória.</p>
+        </div>
+        <div class="objetivos">
+          <img src="" alt="Nexo">
+          <p> 4. Destrua a base inimiga, ou vincule ou consolide as bases de ambas as equipes. Destrua o nexo inimigo antes que ele o destrua ou seu para ganhar o jogo.</p>
+        </div>
+      </div>
+
+     </main>
+   </section>
    
-</div>
-<body>
-    
-    <header>
-        <div class="container" >
-            <div class="rays" ></div>
-            <div class="rays2" ></div>
-
-        </div>
-        
-        
-     <img src="2logo-lol.png"/>
-     <h1 class="league">
-          QUAL CAMPEÃO VOCÊ SERÁ HOJE?</h1>
-
-    </header>
-    <main>
-        <nav class="nav-filtros">
-            <select name="" title="filtros-campeao" class="filtros" id="gender-filter">
-                <option value="" selected hidden>Saúde</option>
-                <option value="Male">porte de anúncio</option>
-                <option value="Female">Recuperação da saúde</option>
-                <option value="Female">Recuperação de mana</option>
-            </select>
-            <select title="filtros-stat" class="filtros" id="status-filter">
-                <option value="Dificuldade" selected hidden> Dificuldade</option>
-                <option value="baixo">Baixa</option>
-                <option value="moderado">Média</option>
-                <option value="Alta">Alta</option>
-            </select>
-            <select title="filtros-espec" class="filtros" id="species-filter">
-                <option value="" selected hidden>Assassinos</option>
-                <option value="Fighter">Lutador</option>
-                <option value="Marksman">Atirador</option>
-                <option value="Mago ou Feiticeiro">Mago ou Feiticeiro</option>
-                <option value="Assassino">Assassino</option>
-                <option value="Tanques">Tanques</option>
-                <option value="Suporte">Suporte</option>
-
-
-            </select>
-            <select title="filtros-alfab" class="filtros" id="alfa-order-filter">
-                <option value="" selected hidden>Ordem alfabética</option>
-                <option value="a-z">A - Z</option>
-                <option value="z-a">Z - A</option>
-            </select>
-        </nav>
-       
-        <div class="form">
-            <form class="buscar-e-limpar">
-                <input class="pesquisar" id="text-search" type="search" placeholder="Pesquisar campeão" />
-                <input type="reset" id="clearFiltros" class="button" onclick="window.location.reload()"
-                    value="Pesquisar" />
-            </form>
-        </div>
-               
-        <main>
-            <section class="card">
-                <div class="cards-container" id="container-dos-cards"></div>
-        
-            </section>
-        </main>
-       
-
-</main>
-
-<div id="root">
-        
-
-    
-    </div>  
-</div>
-<script src="main.js" type="module"></script>
-
-</body>
-
+    <div id="root"></div>
+    <script src="main.js" type="module"></script>
+  </body>
 </html>
