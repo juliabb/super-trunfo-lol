@@ -26,7 +26,7 @@ document.getElementById("return").addEventListener("click", () =>{
   document.getElementById("pag3").style.display = "none";
 })
 
-//Mostrar a pagina los filtros e  ordem
+//Mostrar en la pagina los filtros y el orden 
 
 let bringForm = document.getElementById("cardPrincipal");
 
@@ -36,6 +36,7 @@ const showInScreen = (showChampion) => {
     const image = champion.splash;
     let card = document.createElement("div");
     card.setAttribute("class", "cardChampion face");
+    // CREANDO CON LITERAL TEMPLATE
     card.innerHTML = `
     <div class="flip-card">
       <div class="cardContainer">
@@ -95,7 +96,20 @@ bringOrder.addEventListener("change", () => {
   }
 })
 
-document.getElementById("showstatistic").innerHTML="Sabias que los campeones de League of Legends tienen un promedio de ataque de " + statistics1(dataLOL) + " y ademas su promedio de daño en ataque es del " + statistics2(dataLOL)
+//const bringAverage= document.getElementById("average");
+
+// const showAverage= () =>{
+//   const div= document.createElement("div");
+//   div.setAttribute("class", "curiousFact");
+//   div.innerHTML= `
+//   <h3> Dato Curioso </h3>
+//   <p> Sabias que los campeones de League of Legends tienen un promedio de ataque de ${statistics1(dataLOL)} y ademas su promedio de daño en ataque es del ${statistics2}</p>
+//   `
+
+//   bringAverage.appendChild(div);
+// }
+
+document.getElementById("showstatistic").innerHTML="Você sabia que os campeões de League of Legends têm uma média de ataque de 5,5 e também seu dano médio de ataque é de 55,9" + statistics1(dataLOL) + " e também seu dano médio de ataque é " + statistics2(dataLOL)
 
 
 statistics1(dataLOL);
