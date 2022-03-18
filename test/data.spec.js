@@ -40,7 +40,7 @@ const dataStatistic= [
     }
   }
 ]
-describe('Deberia filtrar por tags', () => {
+describe('Deveria filtrar por tags', () => {
   it("Deberia filtrar por Assassin", () => {
     const result = [
       {
@@ -54,7 +54,7 @@ describe('Deberia filtrar por tags', () => {
     ]
     expect(filterByKey(dataTest, "Assassin")).toEqual(result)
   });
- it("Deberia filtrar por Marksman", () => {
+ it("Deveria filtrar por Marksman", () => {
    const result = [
     {
       name: "Galio",
@@ -66,7 +66,7 @@ describe('Deberia filtrar por tags', () => {
 });
 
 
-describe('Deberia ordenar por name', () => {
+describe('Deve retornar por nome', () => {
   it('Deberia ordenar de Z-A', () => {
     const result = sortChampions(dataTest)
     expect(result[0].name).toEqual("Zyra");
@@ -74,14 +74,14 @@ describe('Deberia ordenar por name', () => {
 });
 
 describe('statistics1', () => {
-  it('Retorna el promedio de ataque', () => {
+  it('Retorna por meio de ataque', () => {
     const result = statistics1(dataStatistic)
     expect(result).toEqual(5);
   });
 });
 
 describe('statistics2', () => {
-  it('Retorna el promedio de daño de ataque', () => {
+  it('Retorna pelo meio de dano', () => {
     const result = statistics2(dataStatistic)
     expect(result).toEqual(52.97);
   });

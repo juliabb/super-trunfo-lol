@@ -26,7 +26,7 @@ document.getElementById("return").addEventListener("click", () =>{
   document.getElementById("pag3").style.display = "none";
 })
 
-//Mostrar en la pagina los filtros y el orden 
+//Mostrar  na pagina os filtros e orden 
 
 let bringForm = document.getElementById("cardPrincipal");
 
@@ -36,7 +36,7 @@ const showInScreen = (showChampion) => {
     const image = champion.splash;
     let card = document.createElement("div");
     card.setAttribute("class", "cardChampion face");
-    // CREANDO CON LITERAL TEMPLATE
+    // CRIANDO COM LITERAL TEMPLATE
     card.innerHTML = `
     <div class="flip-card">
       <div class="cardContainer">
@@ -64,7 +64,7 @@ document.getElementById("btnAll").addEventListener("click", () => {
 
 document.getElementById("btnKiller").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Assassin"));
-})//Filtro por asesinos
+})//Filtro por assassinos
 
 document.getElementById("btnMagic").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Mage"));
@@ -72,11 +72,11 @@ document.getElementById("btnMagic").addEventListener("click", () => {
 
 document.getElementById("btnFighter").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Fighter"));
-})//Filtro por Luchadores
+})//Filtro por Lutadores
 
 document.getElementById("btnMarksman").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Marksman"));
-})//Filtro por Tiradores
+})//Filtro por aTiradores
 
 document.getElementById("btnTank").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Tank"));
@@ -84,7 +84,7 @@ document.getElementById("btnTank").addEventListener("click", () => {
 
 document.getElementById("btnSupport").addEventListener("click", () => {
   showInScreen(filterByKey(dataLOL, "Support"));
-})//Filtro por apoyos 
+})//Filtro por apoios 
 
 const bringOrder = document.getElementById("order")
 bringOrder.addEventListener("change", () => {
