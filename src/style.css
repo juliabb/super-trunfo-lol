@@ -52,7 +52,7 @@ nav ul li a {
 }
 #resume h3{
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: work sans,sans-serif;
   font-size: 2.5em;
   color: rgb(223, 157, 15);
   letter-spacing: 3px;
@@ -74,7 +74,7 @@ nav ul li a {
   color: white;
   text-align: center;
   font-size: 1em;
-  font-family: 'Cinzel', serif;
+  font-family: work sans,sans-serif;
   padding-bottom: 0em;
   
 }
@@ -87,7 +87,7 @@ nav ul li a {
   padding-top: 2em;
 }
 .btnRoles input{
-  font-family: 'Cinzel', serif;
+  font-family: work sans,sans-serif;
   font-size: 1.2em;
   color: white;
   background-color: transparent;
@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 #order{
-  font-family: 'Cinzel', serif;
+  font-family: work sans,sans-serif;
   font-size: 1.2em;
   color: white;
   background-color: transparent;
@@ -165,12 +165,14 @@ nav ul li a {
 }
 
 #pag2{
+  font-family: work sans,sans-serif;
   display: none;
   color: #d4b362;
   padding-bottom: 5em;
 }
 
 #pag3 h3{
+  font-family: work sans,sans-serif;
   color: #d4b362;
   font-size: 1em;
   letter-spacing: 2px;
@@ -178,6 +180,7 @@ nav ul li a {
 }
 
 .objectives{
+  font-family: work sans,sans-serif;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -186,6 +189,7 @@ nav ul li a {
 }
 
 .objectives img{
+  font-family: work sans,sans-serif;
   width: 40em;
   height: 20em;
   margin: 3em;
@@ -194,6 +198,7 @@ nav ul li a {
 }
 
 .objectives p{
+  font-family: work sans,sans-serif;
   color: #d4b362;
   font-size: 1.5em;
   letter-spacing: 2px;

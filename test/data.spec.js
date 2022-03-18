@@ -41,7 +41,7 @@ const dataStatistic= [
   }
 ]
 describe('Deveria filtrar por tags', () => {
-  it("Deberia filtrar por Assassin", () => {
+  it("Deveria filtrar por Assassin", () => {
     const result = [
       {
         name: "Aatrox",
