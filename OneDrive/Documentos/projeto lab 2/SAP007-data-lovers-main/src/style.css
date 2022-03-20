@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+
+  }
+ body{
+     background-image: url("img.jpg");
+ }
+  .logo {
+    
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    padding-left: 50px;
+    height: 8vh;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: block;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 45px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: rgb(3, 3, 104);
+    margin: 8px;
+    transition: 0.3s;
+  }
+ 
+/******************************** TAG SELECTORS   */
+
+select {
+  display: flex;
+}
+/*********************************** CLASS SELECTORS   */
+
+/* BOTÃO LIMPAR CAMPO BUSCA */
+
+.button {
+  color: rgb(3, 3, 104);
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: "Play", sans-serif;
+  backdrop-filter: blur(5px);
+  position: relative;
+}
+
+.button:hover {
+  color: rgb(3, 3, 104);
+}
+
+/* ESTILO DA NAV QUE CONTÉM OS SELETORES */
+.nav-filtros {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+ 
+}
+/* ESTILO DOS SELETORES */
+.filtros {
+  border-radius: 10px;
+  color: yellow;
+  font-size: 1.5rem;
+  height: 3rem;
+  margin: auto;
+  background-color: transparent;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 1.8px solid mediumspringgreen;
+  font-family: sans-serif;
+  backdrop-filter: blur(5px);
+}
+
+/* FORM QUE CONTÉM O PESQUISAR E LIMPAR */
+.buscar-e-limpar {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+}
+
+/* CAMPO PESQUISAR */
+.pesquisar {
+  font-size: 16px;
+  background: transparent;
+  color: rgb(3, 3, 104);
+  border-radius: 10px;
+  border: 1.5px solid rgb(3, 3, 104);
+  margin-right: 50px;
+  width: 20%;
+  text-align: left;
+  padding-left: 8%;
+  backdrop-filter: blur(5px);
+}
+/* TEXTO  REFERENTE QUE ESTÁ DENTRO DO CAMPO PESQUISAR */
+:placeholder {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: black;
+  font-family: "Play", sans-serif;
+}
+
+/* PARÁGRAFO QUE MOSTRA O RESULTADO DA PORCENTAGEM */
+.calculo {
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+/* DIV GERAL QUE CONTÉM OS CARDS PRINTADOS NA TELA POR MEIO DO MAIN.JS */
+.cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-items: flex-end;
+  grid-gap: 1rem;
+}
+
+.card-info {
+  width: 280px;
+  height: 360px;
+  padding: 2rem 1rem;
+  position: relative;
+  display: flex;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.card-info:hover {
+  transform: translateY(20px);
+}
+
+.card-info:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2; /*se tirar perde o bkg preto */
+  transition: 0.5s all;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.card-info:hover:before {
+  opacity: 1;
+}
+
+.card-info img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.p-lista {
+  font-family: "Play", sans-serif;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.858);
+}
+.card-info .info-lista {
+  position: relative;
+  z-index: 3;
+  color: rgb(238, 238, 238);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all 0s;
+}
+
+.card-info:hover .info-lista {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+.fixed-button {
+  position: fixed;
+  width: 19vw;
+  height: 21vw;
+  bottom: 0;
+  right: 0px;
+  margin-bottom: 58px;
+}
