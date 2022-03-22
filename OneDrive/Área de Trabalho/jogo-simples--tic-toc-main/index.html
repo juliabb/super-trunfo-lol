@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jogo basico tic tac toc</title>
+    <link rel="stylesheet" href="style.css" />
+
+   
+  <body>
+   <header>
+    <div class="outer-container">
+        <button class="hard-reset">Reset All</button>
+        <p class="score-1"><span class="points"></span><span class="name"></span></p>
+        <i class="points-divider">&#124;</i>
+        <p class="score-2"><span class="points"></span><span class="name"></span></p>
+        <div class="player-one-turn">
+          <p></p>
+        </div>
+        <div class="player-two-turn">
+          <p></p>
+        </div>
+        <div class="board-container">
+          <div class="game-starter">
+              <p>Você gostaria de ser X ou O?</p>
+              <button class="choose-x">X</button>
+              <button class="choose-o">O</button>
+              <button class="back-button"><i class="fa fa-arrow-left"></i> voltar</button>
+            </div>
+            <div class="game-choice">
+              <p>Como você quer jogar?</p>
+              <button class="one-player">Um jogador</button>
+              <button class="two-player">Dois jogadores</button>
+            </div>
+          <div class="game-board">
+            <div class="draw-message">
+              <p>Foi um empate..</p>
+            </div>
+            <div class="lose-message">
+              <p>OHH, você perdeu..</p>
+            </div>
+            <div class="win-message">
+              <p>Você ganhou!!! :)</p>
+            </div>
+            <canvas id="myCanvas"></canvas>
+            <ul class="boxes">
+            </ul>
+          </div>
+        </div>
+      </div>
+      </header>
+      </body>
+      </head>
+      <link rel="stylesheet" href="index.js" />
+
+</html>
