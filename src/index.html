@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<meta charset="utf-8">
-<title>Super Trunfo LOL</title>
-<link rel="icon" href="img/icon.jpeg">
-<link rel="stylesheet" href="style.css" />
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/icon.jpeg">
+  <title>Super Trunfo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div class="header">
-<img src="img/logo.png" alt="Logo do jogo League of Legends, com sua escrita em capslook">
-<h1>SUPER TRUNFO LOL</h1>
-</div>
-</header> 
-<section class="container">
-<button class="button" id="sortChampions">Sortear Campeão</button>
-<div class="cards hidden" id="cards"></div>
-<div class="cards hidden" id="cards-computer"></div>
-<button class="button" id="play">Jogar</button>
-<button class="button">Proxima Rodada</button>
-</section>
-<script src="main.js" type="module"></script>
+  <html>
+    <div class="container">
+       <img src="./img/logo.png"  alt="logo">
+        <h1 class="page-title">Super Trunfo</h1>
+        <button id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+    <script src="main.js" type="module"></script>
+
 </body>
-</html> 
+</html>

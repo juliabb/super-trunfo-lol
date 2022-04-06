@@ -1,60 +1,32 @@
-  League of Legends 🎮
-  Siga os princípios básicos do design visual
+# Super Trunfo - League of Legends 🎮
 
- .Pesquisa
- Planejar e executar testes de usabilidade de protótipos em diferentes níveis de fidelidade
-2. Descrição
-Esta página é feita para os amantes do LOL e para quem quer saber do que se trata League of Legends, pois através dela podem saber informações sobre o objetivo do jogo e seus campeões, também podem filtrar essas informações pelos pais, e encomendá-las de de acordo com os critérios pesquisados ​​pelo usuário.
+Esperamos que você possa se divertir 😀
+Para acessar o projeto clique [aqui]()
 
-3. Design e pesquisa de UX
-Para o design desta página realizei uma pesquisa com alguns jogadores de LOL e também com algumas pessoas interessadas em conhecer o jogo. O resultado desta pesquisa  me deu um guia para o seu protótipo. Pensei  em uma página com um design interativo para o usuário e fácil de usar.
+ ## Sobre
+O desafio consiste em criar o jogo de cartas super trunfo, que coloca duas cartas diferentes com atributos para batalhar, dependendo do atributo, vence a carta que tiver o maior valor
 
-Resultado da pesquisa
-<img src="5.png" alt="Gif">
+![](/image.png)
 
-Protótipos irreais
-imagem
+## Funcionalidade
+A aplicação foi desenvolvida pensando nos fãs e suas necessidades de jogar um jogo classico. Focando no interesse em conhecer mais sobre os campeões. Levando em consideração a funcionalidade, acessibilidade e a experiencia como um todo.
+## Prototipo de alta Fidelidade
 
-protótipo de alta fidelidade
-Ao ver os resultados da pesquisa, foram feitas alterações no primeiro protótipo projetado, dando foco às sugestões feitas pelos usuários. 
+O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.com/file/xRhpBQkoFxHq0yLPZ1eSBy/Untitled)
 
-4. Histórias de usuários
-Usuário-1
-Como usuário quero ver uma página que me permita navegar por um menu que tenha a opção de conhecer todos os Campeões e os objetivos do jogo para saber mais sobre ele.
+## Ferramentas Utilizadas
 
+Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
-# Usuário-2
-Como usuário, quero saber quais são os objetivos do jogo para entender sua dinâmica.
-<img src="img2.jpeg" >
+- JavaScript
+- HTML 5
+- CSS
+- Node.JS
+- Figma
 
 
-
-# Usuário-3
-Como usuário, quero ver os campeões por função para aprender sobre eles e definir minhas estratégias de jogo.
-
-<img src="imag3.jpeg" alt=""> 
-
-# Iteração de prototipagem
-Para esta página, protótipos foram constantemente iterados com os usuários e devido a essas mudanças surgiram na página principal, uma delas foi o vídeo que não ocupava mais a tela inteira, além disso o resumo foi atribuído à mesma página. Ao invés de fazer uma visão com os campos de batalha, foi feita uma com os objetivos do jogo e assim cheguei ao resultado final.
-
-5. Testes unitários
-Este projeto tem um critério mínimo de aceitação em relação aos testes unitários que devem dar uma cobertura de 70% de declarações, funções, linhas e ramificações. De acordo com a imagem a seguir, esta diretriz é totalmente cumprida.
-
-teste:
-<img src="img.jpeg" >
-
-# Planejamento
-Trello
-
-6. Tecnologias utilizadas 🛠️
-HTML - Usado para layout
-CSS - Usado para estilo
-JAVASCRIPT - Usado para interatividade
-GitHub- Usado para trabalho colaborativo
-
-
-# Autora do projeto
-(Vanessa Borges)
+## Desenvolvedoras
+Dayane Marrysol, Julia Benedicto, Keyla Hadama, Vanessa Borges, Thais Bonalume e Taila Martins
 
 
 
