@@ -1,72 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="pgit  greconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-   <header>
-    <input type="image" id="return" src="2logo-lol.png" alt="Lol">
-    <nav>
-      <ul>
-        <li><a id="goals" href="#">Objetivos do jogo</a></li>
-        <li><a id="btnChampion" href="#"> Clique aqui e escolha um campeão</a></li>
-      </ul>
-    </nav>
-   </header> 
-   <section id="principal">
-     <main>
-      <div id="pag1">
-        <div id="resume">
-          <h3>O que é league of legends?</h3>
-          <p>League of Legends é um jogo de estratégia em equipe no qual duas equipes compostas por cinco poderosos campeões lutam para destruir a base uma da outra. Escolha entre 134 campeões para realizar jogadas épicas, garantir mortes e destruir torres enquanto você cavalga para a vitória.</p>
-          <h3> Dado Curioso </h3>
-        </div>
-        <div id="average"> 
-          <p id="showstatistic"> 
-
-          </p>
-        </div>
-      </div>
-
-      <div id="pag2">
-        <form class=" btnRoles">
-          <input type="button" id="btnAll" value="Todos">
-          <input type="button" id="btnKiller" value="Assassinos">
-          <input type="button" id="btnMagic" value="Magos">
-          <input type="button" id="btnFighter" value="Lutadores">
-          <input type="button" id="btnMarksman" value="ATiradores">
-          <input type="button" id="btnTank" value="Tanques">
-          <input type="button" id="btnSupport" value="Apoios">
-          <form>
-            <select id="order">
-              <option disable select>Organize seus campeões</option>
-              <option value="btnAZ">A - Z</option>
-              <option value="btnZA">Z - A</option>
-            </select>
-          </form>  
-        </form>
-       <div id="cardPrincipal"></div> 
-      </div>
-
-      <div id="pag3">
-        <h3>Objetivo do jogo
-          Escolha sua pista, jogue como seu melhor atirador ou como suporte na pista dupla; Lance feitiços na rota do meio ou enfrente um lutador na rota solo.
-          Domine a selva, em vez de ficar em uma pista, você pode caçar monstros na selva. Mate monstros épicos como Baron Nashor ou Dragons para desbloquear atualizações poderosas para sua equipe.Domine a selva, em vez de ficar em uma pista, você pode caçar monstros na selva. Mate monstros épicos como Baron Nashor ou Dragons para desbloquear atualizações poderosas para sua equipe.Destrua as torres para chegar ao nexo, em cada pista há torres defensivas entre sua equipe e a base inimiga. Derrube essas estruturas e forje seu caminho para a vitória.
-        </h3>
-      </div>
-        <div class="containerVideo">
-          <video class="video" autoplay loop muted src="League of Legends_Trim.mp4"></video>
-        
-      </div>
-     </main>
-   </section>
-   
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
-</html>
+<head>
+<meta charset="utf-8">
+<title>Super Trunfo LOL</title>
+<link rel="icon" href="img/icon.jpeg">
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="header">
+<img src="img/logo.png" class="logo" alt="Logo do jogo League of Legends, com sua escrita em capslook">
+<h1>SUPER TRUNFO LOL</h1>
+</div>
+</header> 
+<section class="container">
+<button class="button" id="sortChampions">Sortear Campeão</button>
+<div class="cards" id="cards"></div>
+<button class="button">Jogar</button>
+<button class="button">Proxima Rodada</button>
+</section>
+<script src="main.js" type="module"></script>
+</body>
+</html> 

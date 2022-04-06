@@ -1,222 +1,41 @@
-body{
-  background-color: #080e18;
-  margin: 0%;
-  overflow-x: hidden;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-
-
-#return {
-  height: 11em;
-  margin: 0%;
-  padding-top: 0.5em;
+body {
+  font-family: 'Alice', serif;
+  background-image: url(img/background.jpg);
 }
 
-nav ul li{
-  display: inline-block;
-  border: 0.1em outset  #d4b362;
-  border-radius: 1em;
-  background-color: transparent;
-  padding: 0.6em;
-}
-nav ul{
-  background-color: #12261f;
-  list-style: none;
-  margin: 0%;
-  
-}
-nav ul li a {
-  letter-spacing: 1vh;
-  text-decoration: none;
-  color: rgb(209 209 27);
-  font-size: 1em;
+.logo{
+  width: 20%;
 }
 
-#pag1{
-  display: block;
-  position: relative;
-}
-
-#text{
-  position: absolute;
-  top: 15%;
-  left: 2%;
-  
-}
-
-
-#resume {
-  margin: 0%;
-  top: 0%;
-}
-#resume h3{
-  text-align: center;
-  font-family: work sans,sans-serif;
-  font-size: 2.5em;
-  color: rgb(223, 157, 15);
-  letter-spacing: 3px;
-  margin: 0%;
-}
-
-#resume p{
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  font-size: 1em;
-  color: white;
-  letter-spacing: 2px;
-  padding-left: 1em;
-  padding-right: 1em;
-
-}
-
-#showstatistic {
-  color: white;
-  text-align: center;
-  font-size: 1em;
-  font-family: work sans,sans-serif;
-  padding-bottom: 0em;
-  
-}
-
-#pag2{
-  display: none;
-  text-align: center; 
-}
-.btnRoles{
-  padding-top: 2em;
-}
-.btnRoles input{
-  font-family: work sans,sans-serif;
-  font-size: 1.2em;
-  color: white;
-  background-color: transparent;
-  border-radius: 0.5em;
-  border: 0.1em outset  #d4b362;
-  padding: 0.3em 0.5em ;
-}
-
-#order{
-  font-family: work sans,sans-serif;
-  font-size: 1.2em;
-  color: white;
-  background-color: transparent;
-  border-radius: 0.5em;
-  border: 0.1em outset #d4b362;
-  padding: 0.3em 0.5em ;
-  text-align: center;
-}
-#cardPrincipal{
+.header{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding-bottom: 10em;
+  align-items: center;
 }
 
-.flip-card {
-  width: 25em;
-  height: 25em;
-  perspective: 1000px; 
+h1{
+  margin-left: 20%;
+  font-size: 40px;
+}
+
+.button{
+  background-color: #3B313F;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: transparent;
+  width: 16%;
   margin: 1em;
 }
 
-.cardContainer {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  
-}
-
-.flip-card:hover .cardContainer {
-  transform: rotateY(180deg);
-}
-
-.cardFront, .cardBack {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border: 0.2em solid #474746;
-  border-radius: 3em;
-  background-color:  #111224;
-  color: white;
-  letter-spacing: 2px;
-}
-
-.cardFront {
+.container{
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
-}
-
-.cardBack {
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.image{
-    border-radius: 1em;
-}
-
-#pag2{
-  font-family: work sans,sans-serif;
-  display: none;
-  color: #d4b362;
-  padding-bottom: 5em;
-}
-
-#pag3 h3{
-  font-family: work sans,sans-serif;
-  color: #d4b362;
-  font-size: 1em;
-  letter-spacing: 2px;
-  padding-left: 2em;
-}
-
-.objectives{
-  font-family: work sans,sans-serif;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
   align-items: center;
-  border: white;
-}
-
-.objectives img{
-  font-family: work sans,sans-serif;
-  width: 40em;
-  height: 20em;
-  margin: 3em;
-  border-radius: 0.5em;
-  border: 0.3em outset  #d4b362;
-}
-
-.objectives p{
-  font-family: work sans,sans-serif;
-  color: #d4b362;
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  padding-right: 1em;
-}
-
-.containerVideo{
-  overflow-x: hidden;
-  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 22%, 100% 61%, 70% 86%, 29% 86%, 0 61%, 0 22%);
-  clip-path: polygon(30% 0%, 70% 0%, 100% 22%, 100% 61%, 70% 86%, 29% 86%, 0 61%, 0 22%);
-  border: 1em solid #0b0c16;
-}
-
-.video{
-  display: block;
-  z-index: 1;
-  opacity: 0.95;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
 }
