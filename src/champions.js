@@ -2,37 +2,42 @@ export default [
     {
         name: "Aatrox",
         img:
-            "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2019/03/22/6ca582a8-d1e8-4972-b21e-6c405c4fc1f9/teemo-lol-omega-skin",
-        attack: 8,
-        defense: 4,
-        magic: 3,
-        difficulty: 4
+            "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+
+        atribute: {
+            attack: 8,
+            defense: 4,
+            magic: 3,
+        }
     },
     {
         name: "Ahri",
         img:
-            "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2019/03/22/6ca582a8-d1e8-4972-b21e-6c405c4fc1f9/teemo-lol-omega-skin",
-        attack: 3,
-        defense: 4,
-        magic: 8,
-        difficulty: 5
+            "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+        atribute: {
+            attack: 3,
+            defense: 4,
+            magic: 8,
+        }
     },
     {
         name: "Akali",
         img:
-            "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2019/03/22/6ca582a8-d1e8-4972-b21e-6c405c4fc1f9/teemo-lol-omega-skin",
-        attack: 5,
-        defense: 3,
-        magic: 8,
-        difficulty: 7
+            "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+        atribute: {
+            attack: 5,
+            defense: 3,
+            magic: 8,
+        }
     },
     {
         name: "Alistar",
         img:
-            "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2019/03/22/6ca582a8-d1e8-4972-b21e-6c405c4fc1f9/teemo-lol-omega-skin",
-        attack: 6,
-        defense: 9,
-        magic: 5,
-        difficulty: 7
+            "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+        atribute: {
+            attack: 6,
+            defense: 9,
+            magic: 5,
+        }
     }
 ]
