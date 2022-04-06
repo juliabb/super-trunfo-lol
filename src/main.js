@@ -1,3 +1,4 @@
+
 import {carta1, carta2, carta3, carta4} from "./champions.js"
 
 let cartas = [carta1, carta2, carta3, carta4];
@@ -97,3 +98,7 @@ function exibirCartaMaquina(){
 
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
 }
+
+
+
+

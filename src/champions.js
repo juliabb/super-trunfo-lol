@@ -1,4 +1,5 @@
 
+
 export let carta1 = {
   name: "Aatrox",
   img:

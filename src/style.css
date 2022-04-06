@@ -8,6 +8,7 @@
 body {
   font-family: 'Alice', serif;
   background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
 }
 
 .logo{
@@ -158,4 +159,16 @@ form {
 
 .carta-status p {
   margin-bottom: 2rem;
+}
+
+.image-card{
+  width: 12%;
+}
+
+.hidden{
+  display: none;
+}
+
+#cards-computer{
+  margin: 50%;
 }
