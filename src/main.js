@@ -2,15 +2,14 @@ import champions from './champions.js';
 
 //const championsList = champions.map(addName => addName.name.map);
 
-//const sortChampions = document.querySelectorById('#sortChampions');
+const sortChampions = document.querySelector('#sortChampions');
 
 sortChampions.addEventListener('click', () => {
-  showCards();
+  showCards([]);
 });
 
 function showCards(champions) {
-  document.getElementById("cards").innerHTML = champions
-    .map(
+  document.getElementById("cards").innerHTML = champions.map(
       (item) =>
         `
            <img class="image-card" src="${item.img}" alt="Imagem dos  campeões">
