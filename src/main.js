@@ -10,13 +10,15 @@ let cartaJogador;
 function sortearCarta(){
   zerarCarta("carta-jogador");
   zerarCarta("carta-maquina");
+  const divCartaMaquina = document.getElementById("carta-maquina");
+  divCartaMaquina.style.backgroundImage = null;
+
   let numeroCartaMaquina = parseInt(Math.random()*4);
   cartaMaquina = cartas[numeroCartaMaquina];
-  // console.log(cartaMaquina);
 
   let numeroCartaJogador = parseInt(Math.random()*4);
   while(numeroCartaMaquina == numeroCartaJogador){
-    numeroCartaJogador = parseInt(Math.random()*4);
+    numeroCartaJogador = parseInt(Math.random()*3);
   }
 
   cartaJogador = cartas[numeroCartaJogador];
@@ -66,6 +68,7 @@ function jogar(){
   }
   divResultado.innerHTML = htmlResultado;
   document.getElementById('btnJogar').disabled = true;
+  document.getElementById('btnSortear').disabled = false;
   exibirCartaMaquina();
   exibirPlacar();
 }
@@ -123,4 +126,5 @@ function zerarCarta(id) {
     
   idCarta.innerHTML = idCartaTexto;
 }
+
 
