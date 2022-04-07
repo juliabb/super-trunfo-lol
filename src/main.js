@@ -9,13 +9,15 @@ let cartaJogador;
 
 
 function sortearCarta(){
+  const divCartaMaquina = document.getElementById("carta-maquina");
+  divCartaMaquina.style.backgroundImage = null;
+
   let numeroCartaMaquina = parseInt(Math.random()*4);
   cartaMaquina = cartas[numeroCartaMaquina];
-  // console.log(cartaMaquina);
 
   let numeroCartaJogador = parseInt(Math.random()*4);
   while(numeroCartaMaquina == numeroCartaJogador){
-    numeroCartaJogador = parseInt(Math.random()*4);
+    numeroCartaJogador = parseInt(Math.random()*3);
   }
 
   cartaJogador = cartas[numeroCartaJogador];
@@ -58,13 +60,13 @@ function jogar(){
   }
   divResultado.innerHTML = htmlResultado;
   document.getElementById('btnJogar').disabled = true;
+  document.getElementById('btnSortear').disabled = false;
   exibirCartaMaquina();
 }
 
 function exibirCartaJogador(){
   let divCartaJogador = document.getElementById("carta-jogador");
   divCartaJogador.style.backgroundImage=`url(${cartaJogador.img})`;
-
 
   let moldura ='<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
   let tagHTML = "<div id='opcoes' class='carta-status'>"
