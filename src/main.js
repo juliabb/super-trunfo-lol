@@ -59,7 +59,7 @@ function jogar(){
   }else if(cartaMaquina.atributes[atributoSelecionado] > cartaJogador.atributes[atributoSelecionado]){
     placar[1]++;
     htmlResultado = "<p class='resultado-final'>Perdeu</p>"
-  }else if (isNaN(cartaJogador)){
+  }else if (isNaN(cartaJogador.atributes[atributoSelecionado])){
   htmlResultado = "<p class='resultado-final'>Por favor, escolha um atributo.</p>"
 }else{
     placar[0];
