@@ -1,4 +1,4 @@
-![titulo e imagem da capa](/src\img\logo.png)
+![titulo e imagem da capa](/src/img/logo.png)
 
 
 ## Índice
