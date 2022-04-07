@@ -1,10 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 *{
   margin: 0;
   padding: 0;
 }
 
+/*
 body {
   font-family: 'Alice', serif;
   background-image: url(img/background.jpg);
@@ -42,9 +43,9 @@ h1{
 } */
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Alice', sans-serif;
   min-height: 854px;
-  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+  background-image: url('img/background.jpg');
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -58,20 +59,30 @@ body {
 }
 
 .page-title {
-  color: #ffffff;
+  color: #000000;
   margin: 5px 0;
+  font-size: 45px;
 }
 
-button, .button-jogar {
+.button{
   padding: .8rem 1.5rem;
   margin: 1rem 0;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
+  background-color: #3b313f;
+  color: white;
 }
 
-h2 {
-  color: white;
+.button-jogar{
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #000000;
+  margin-right: 29em;
 }
 
 #carta-jogador, #carta-maquina {
@@ -111,6 +122,7 @@ h2 {
   margin: 2rem;
   color: white;
   z-index: 2;
+  font-size: x-large;
 }
 
 .carta-status input {
@@ -142,10 +154,16 @@ form {
   width: 100%;
 }
 
+.template{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
 .carta-subtitle {
   z-index: 2;
   position: absolute;
-  top: 16px;
+  top: 30px;
   left: 37px;
   font-weight: 800;
   text-transform: uppercase;
@@ -171,4 +189,21 @@ form {
 
 #cards-computer{
   margin: 50%;
+}
+
+.placar {
+  color: white;
+  font-weight: bold;
+  background-color: #3b313f;
+  font-size: 1.2em;
+  width: 220px;
+  height: 160px;
+  margin: auto;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+}
+
+.placar p{
+  margin-top: 1em;
 }

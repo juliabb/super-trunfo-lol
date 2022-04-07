@@ -7,8 +7,9 @@ let cartaMaquina;
 let cartaJogador;
 
 
-
 function sortearCarta(){
+  zerarCarta("carta-jogador");
+  zerarCarta("carta-maquina");
   let numeroCartaMaquina = parseInt(Math.random()*4);
   cartaMaquina = cartas[numeroCartaMaquina];
   // console.log(cartaMaquina);
@@ -21,7 +22,7 @@ function sortearCarta(){
   cartaJogador = cartas[numeroCartaJogador];
 
 
-  document.getElementById("btnSortear").disabled = true;
+  document.getElementById("btnSortear").disabled = false;
   document.getElementById("btnJogar").disabled = false;
 
   // exibirOpcoes();
@@ -41,24 +42,32 @@ function obtemAtributoSelecionado(){
     }
   }
 }
-let htmlResultado = document.getElementById("resultado")
+let htmlResultado = document.getElementById("resultado");
+let placar = [0, 0];
+exibirPlacar();
+
 function jogar(){
   let atributoSelecionado = obtemAtributoSelecionado();
   let divResultado = document.getElementById("resultado");
 
-  if(cartaJogador.atributes[atributoSelecionado] > cartaMaquina.atributes[atributoSelecionado]){
 
+  if(cartaJogador.atributes[atributoSelecionado] > cartaMaquina.atributes[atributoSelecionado]){
+    placar[0]++;
     htmlResultado = "<p class='resultado-final'>Venceu</p>"
   }else if(cartaMaquina.atributes[atributoSelecionado] > cartaJogador.atributes[atributoSelecionado]){
-
+    placar[1]++;
     htmlResultado = "<p class='resultado-final'>Perdeu</p>"
-  }else{
-
+  }else if (isNaN(cartaJogador)){
+  htmlResultado = "<p class='resultado-final'>Por favor, escolha um atributo.</p>"
+}else{
+    placar[0];
+    placar[1];
     htmlResultado = "<p class='resultado-final'>Empatou</p>"
   }
   divResultado.innerHTML = htmlResultado;
   document.getElementById('btnJogar').disabled = true;
   exibirCartaMaquina();
+  exibirPlacar();
 }
 
 function exibirCartaJogador(){
@@ -66,7 +75,7 @@ function exibirCartaJogador(){
   divCartaJogador.style.backgroundImage=`url(${cartaJogador.img})`;
 
 
-  let moldura ='<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+  let moldura ='<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">'; 
   let tagHTML = "<div id='opcoes' class='carta-status'>"
 
   let opcoesTexto = "";
@@ -83,9 +92,9 @@ function exibirCartaJogador(){
 function exibirCartaMaquina(){
   let divCartaMaquina = document.getElementById("carta-maquina");
   divCartaMaquina.style.backgroundImage=`url(${cartaMaquina.img})`;
+  
 
-
-  const moldura ='<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+  let moldura ='<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" class="template">';
   const tagHTML = "<div id='opcoes' class='carta-status'>"
 
   let opcoesTexto = "";
@@ -99,6 +108,19 @@ function exibirCartaMaquina(){
   divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
 }
 
+function exibirPlacar() {
+  const placarJogador = document.getElementById("placarJogador");
+  const placarComputador = document.getElementById("placarComputador");
 
+  placarJogador.innerHTML = `👑 Jogador: ${placar[0]}`;
+  placarComputador.innerHTML = `👾 Computador: ${placar[1]}`;
+}
 
+function zerarCarta(id) {
+  const idCarta = document.getElementById(id);
+  const idCartaTexto =
+    '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" class="template" alt="Template do card">';
+    
+  idCarta.innerHTML = idCartaTexto;
+}
 
