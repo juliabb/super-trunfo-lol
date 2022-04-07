@@ -1,35 +1,40 @@
-# League of Legends (LoL)
+![titulo e imagem da capa](/src\img\logo.png)
 
-League of Legends é um jogo de estratégia online para vários jogadores. Possui
-milhões de jogadores em todo o mundo e atualmente é um dos _e-sports_ de
-referência e que atrai o maior público.
 
-Durante o jogo, as equipes trabalham juntas para alcançar uma condição de
-vitória, que ocorre destruindo a estrutura central na base do time inimigo.
+## Índice
 
-Em todos os modos de jogo, os jogadores controlam os personagens chamados
-"campeões", que são escolhidos ou designados em cada jogo, e que possuem um
-conjunto único de habilidades. É com esses campeões que todo o jogo é jogado.
-Para entender um pouco mais sobre o jogo, você pode entrar neste
-[link](https://esportsbr.com/noticia/lol-entenda-o-basico-para-comecar-a-jogar-league-of-legends).
+- [🎮 Super Trunfo - League of Legends](#-super-trunfo---league-of-legends)
+  - [💻 Descrição do projeto](#-descrição-do-projeto)
+  - [Status do Projeto](#status-do-projeto)
+  - [🛠 Funcionalidades do projeto](#-funcionalidades-do-projeto)
+  - [Acesso ao projeto](#acesso-ao-projeto)
+  - [🎨 Prototipo de alta Fidelidade](#-prototipo-de-alta-fidelidade)
+  - [⚙ Ferramentas Utilizadas](#-ferramentas-utilizadas)
+  - [Desenvolvedoras](#desenvolvedoras)
 
-# Super Trunfo - League of Legends 🎮
 
-Esperamos que você possa se divertir 😀
-Para acessar o projeto clique [aqui]()
+# 🎮 Super Trunfo - League of Legends
 
- ## Sobre
-O desafio consiste em criar o jogo de cartas super trunfo, que coloca duas cartas diferentes com atributos para batalhar, dependendo do atributo, vence a carta que tiver o maior valor
+ ## 💻 Descrição do projeto
+O desafio consiste em criar o jogo de cartas super trunfo, que coloca duas cartas diferentes com atributos para batalhar, dependendo do atributo, vence a carta que tiver o maior valor.
 
-![](/image.png)
+![imagem da pagina web](/image.png)
 
-## Funcionalidade
+## Status do Projeto
+<h4 align="center">
+     🚧 Projeto em construção 🚧
+</h4>
+
+## 🛠 Funcionalidades do projeto
 A aplicação foi desenvolvida pensando nos fãs e suas necessidades de jogar um jogo classico. Focando no interesse em conhecer mais sobre os campeões. Levando em consideração a funcionalidade, acessibilidade e a experiencia como um todo.
-## Prototipo de alta Fidelidade
 
+## Acesso ao projeto
+o deploy foi feito usando o gitpages pra ter acesso clique [aqui](https://juliabb.github.io/super-trunfo-lol/)
+
+## 🎨 Prototipo de alta Fidelidade
 O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.com/file/xRhpBQkoFxHq0yLPZ1eSBy/Untitled)
 
-## Ferramentas Utilizadas
+## ⚙ Ferramentas Utilizadas
 
 Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
@@ -41,17 +46,17 @@ Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
 
 ## Desenvolvedoras
-[Dayane Marrysol](https://www.linkedin.com/in/dayannemaryssol/)
+👩[Dayane Marrysol](https://www.linkedin.com/in/dayannemaryssol/)
 
-[Julia Benedicto](https://www.linkedin.com/in/julia-cruz-7aa339183/)
+👩[Julia Benedicto](https://www.linkedin.com/in/julia-cruz-7aa339183/)
 
-[Keila Hadama](https://www.linkedin.com/in/keila-hadama/)
+👩[Keila Hadama](https://www.linkedin.com/in/keila-hadama/)
 
-[Taila Martins](https://www.linkedin.com/in/taila-martins/)
+👩[Taila Martins](https://www.linkedin.com/in/taila-martins/)
 
-[Thais Bonalume](https://www.linkedin.com/in/thais-moreira-jesus-bonalume/)
+👩[Thais Bonalume](https://www.linkedin.com/in/thais-moreira-jesus-bonalume/)
 
-[Vanessa Borges](https://www.linkedin.com/in/vanessa-borges-a05b4636/)
+👩[Vanessa Borges](https://www.linkedin.com/in/vanessa-borges-a05b4636/)
 
 
 
