@@ -1,51 +1,14 @@
- @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-/*
 body {
-  font-family: 'Alice', serif;
-  background-image: url(img/background.jpg);
-  background-repeat: no-repeat;
-}
-
-.logo{
-  width: 20%;
-}
-
-.header{
-  display: flex;
-  align-items: center;
-}
-
-h1{
-  margin-left: 20%;
-  font-size: 40px;
-}
-
-.button{
-  background-color: #3B313F;
-  color: #ffff;
-  border-radius: 5px;
-  padding: 10px;
-  border-color: transparent;
-  width: 16%;
-  margin: 1em;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-body {
-  font-family: 'Alice', sans-serif;
+  font-family: "Alice", sans-serif;
   min-height: 854px;
-  background-image: url('img/background.jpg');
+  background-image: url("img/background.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -64,8 +27,8 @@ body {
   font-size: 45px;
 }
 
-.button{
-  padding: .8rem 1.5rem;
+.button {
+  padding: 0.8rem 1.5rem;
   margin: 1rem 0;
   border-radius: 5px;
   border: none;
@@ -74,18 +37,21 @@ body {
   color: white;
 }
 
-.button-jogar{
+.button-jogar {
   width: fit-content;
   margin: auto;
   margin-bottom: 20px;
 }
 
 .subtitle {
-  color: #000000;
-  margin-right: 29em;
+  color: #ffffff;
+  font-size: 2em;
+  text-shadow: 2px 2px #000000;
+  margin-right: 30em;
 }
 
-#carta-jogador, #carta-maquina {
+#carta-jogador,
+#carta-maquina {
   width: 360px;
   height: 500px;
   overflow: auto;
@@ -100,21 +66,6 @@ body {
   background-position-x: 5px;
   background-position-y: 10px;
   border-radius: 33px;
-}
-
-#carta-jogador h3 {
-  text-align: center;
-}
-
-.carta-imagem {
-  border: 1px solid black;
-  height: 100px;
-  margin: 10px;
-}
-
-.carta-imagem img {
-  width: 100%;
-  height: 100%;
 }
 
 .carta-status {
@@ -139,10 +90,6 @@ body {
   background-color: black;
 }
 
-.--spacing {
-  margin-left: 2.5rem;
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -154,7 +101,7 @@ form {
   width: 100%;
 }
 
-.template{
+.template {
   width: inherit;
   height: inherit;
   position: absolute;
@@ -179,15 +126,15 @@ form {
   margin-bottom: 2rem;
 }
 
-.image-card{
+.image-card {
   width: 12%;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-#cards-computer{
+#cards-computer {
   margin: 50%;
 }
 
@@ -204,6 +151,12 @@ form {
   border-color: black;
 }
 
-.placar p{
+.placar p {
   margin-top: 1em;
+}
+
+.credit,
+.credit a {
+  color: white;
+  text-align: center;
 }
