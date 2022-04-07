@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Alice", sans-serif;
+  min-height: 854px;
+  background-image: url("img/background.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 5px 0;
+  font-size: 45px;
+}
+
+.button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #3b313f;
+  color: white;
+}
+
+.button-jogar {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 2em;
+  text-shadow: 2px 2px #000000;
+  margin-right: 30em;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 10px;
+  border-radius: 33px;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 2rem;
+  color: white;
+  z-index: 2;
+  font-size: x-large;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.resultado-final {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.template {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta-status p {
+  margin-bottom: 2rem;
+}
+
+.image-card {
+  width: 12%;
+}
+
+.hidden {
+  display: none;
+}
+
+#cards-computer {
+  margin: 50%;
+}
+
+.placar {
+  color: white;
+  font-weight: bold;
+  background-color: #3b313f;
+  font-size: 1.2em;
+  width: 220px;
+  height: 160px;
+  margin: auto;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+}
+
+.placar p {
+  margin-top: 1em;
+}
+
+.credit,
+.credit a {
+  color: white;
+  text-align: center;
+}
