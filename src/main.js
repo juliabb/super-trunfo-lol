@@ -16,6 +16,8 @@ function sortearCarta() {
   zerarCarta("carta-maquina");
   const divCartaMaquina = document.getElementById("carta-maquina");
   divCartaMaquina.style.backgroundImage = null;
+  const atributosMaquina = document.getElementById("atributos-maquina");
+  atributosMaquina.innerHTML = null;
 
   let numeroCartaMaquina = parseInt(Math.random() * 4);
   cartaMaquina = cartas[numeroCartaMaquina];
@@ -36,7 +38,7 @@ function sortearCarta() {
 }
 
 function obtemAtributoSelecionado() {
-  let radioAtributos = document.getElementsByName("atributo");
+  let radioAtributos = document.getElementsByName("atributo-jogador");
 
   for (let i = 0; i < radioAtributos.length; i++) {
     if (radioAtributos[i].checked == true) {
@@ -53,18 +55,27 @@ function jogar() {
 
   if (cartaJogador.atributes[atributoSelecionado] > cartaMaquina.atributes[atributoSelecionado]) {
     placar[0]++;
-    htmlResultado = "<p class='resultado-final'>Venceu</p>"
-  } else if (cartaMaquina.atributes[atributoSelecionado] > cartaJogador.atributes[atributoSelecionado]) {
+    htmlResultado = "<p class='resultado-final'>Venceu</p>";
+    finalizarJogo();
+  } 
+  else if (cartaMaquina.atributes[atributoSelecionado] > cartaJogador.atributes[atributoSelecionado]) {
     placar[1]++;
-    htmlResultado = "<p class='resultado-final'>Perdeu</p>"
-  } else if (isNaN(cartaJogador.atributes[atributoSelecionado])) {
+    htmlResultado = "<p class='resultado-final'>Perdeu</p>";
+    finalizarJogo();
+  } 
+  else if (isNaN(cartaJogador.atributes[atributoSelecionado])) {
     htmlResultado = "<p class='resultado-final'>Por favor, escolha um atributo.</p>"
-  } else {
+  } 
+  else {
     placar[0];
     placar[1];
-    htmlResultado = "<p class='resultado-final'>Empatou</p>"
+    htmlResultado = "<p class='resultado-final'>Empatou</p>";
+    finalizarJogo();
   }
   divResultado.innerHTML = htmlResultado;
+}
+
+function finalizarJogo() {
   document.getElementById('btnJogar').disabled = true;
   document.getElementById('btnSortear').disabled = false;
   exibirCartaMaquina();
@@ -72,41 +83,39 @@ function jogar() {
 }
 
 function exibirCartaJogador() {
-  let divCartaJogador = document.getElementById("carta-jogador");
-  divCartaJogador.style.backgroundImage = `url(${cartaJogador.img})`;
-
-
-  let moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
-  let tagHTML = "<div id='opcoes' class='carta-status'>"
-
-  let opcoesTexto = "";
+  const imgCartaJogador = document.getElementById("carta-jogador");
+  imgCartaJogador.setAttribute("src", cartaJogador.img);
+  imgCartaJogador.classList.remove("imagem-padrao");
+  
+  const atributosJogador = document.getElementById("atributos-jogador");
+  let atributos = "";
   for (let atributo in cartaJogador.atributes) {
-    opcoesTexto += "<input type='radio' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaJogador.atributes[atributo] + "<br>";
-
+    atributos += `
+      <label class="radio-grupo">
+        <input type="radio" name="atributo-jogador" value="${atributo}">
+        ${(cartaJogador.atributes[atributo]).toString().padStart(2, 0)} - ${atributo.toUpperCase()}
+      </label>
+    `;
   }
-
-  const nome = `<p class="carta-subtitle">${cartaJogador.name}</p>`
-
-  divCartaJogador.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
+  atributosJogador.innerHTML = atributos;
 }
 
 function exibirCartaMaquina() {
-  let divCartaMaquina = document.getElementById("carta-maquina");
-  divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.img})`;
-
-
-  let moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" class="template">';
-  const tagHTML = "<div id='opcoes' class='carta-status'>"
-
-  let opcoesTexto = "";
+  const imgCartaMaquina = document.getElementById("carta-maquina");
+  imgCartaMaquina.setAttribute("src", cartaMaquina.img);
+  imgCartaMaquina.classList.remove("imagem-padrao");
+  
+  const atributosMaquina = document.getElementById("atributos-maquina");
+  let atributos = "";
   for (let atributo in cartaMaquina.atributes) {
-    opcoesTexto += "<p name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributes[atributo] + "</p>";
-
+    atributos += `
+      <label class="radio-grupo">
+        <input type="radio" name="atributo-maquina" value="${atributo}" disabled>
+        ${(cartaMaquina.atributes[atributo]).toString().padStart(2, 0)} - ${atributo.toUpperCase()}
+      </label>
+    `;
   }
-
-  const nome = `<p class="carta-subtitle">${cartaMaquina.name}</p>`
-
-  divCartaMaquina.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>";
+  atributosMaquina.innerHTML = atributos;
 }
 
 function exibirPlacar() {
@@ -118,9 +127,10 @@ function exibirPlacar() {
 }
 
 function zerarCarta(id) {
-  const idCarta = document.getElementById(id);
-  const idCartaTexto =
-    '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" class="template" alt="Template do card">';
+  const card = document.getElementById(id);
+  card.setAttribute("src", "./images/icon.jpeg");
 
-  idCarta.innerHTML = idCartaTexto;
+  if(id === "carta-maquina") {
+    card.classList.add("imagem-padrao");
+  }
 }
