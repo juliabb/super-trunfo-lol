@@ -14,6 +14,9 @@ document.getElementById("btnJogar").addEventListener("click", jogar)
 function sortearCarta() {
   zerarCarta("carta-jogador");
   zerarCarta("carta-maquina");
+
+  const divResultado = document.getElementById("resultado");
+  divResultado.innerHTML = null;
   const divCartaMaquina = document.getElementById("carta-maquina");
   divCartaMaquina.style.backgroundImage = null;
   const atributosMaquina = document.getElementById("atributos-maquina");
@@ -30,7 +33,7 @@ function sortearCarta() {
   cartaJogador = cartas[numeroCartaJogador];
 
 
-  document.getElementById("btnSortear").disabled = false;
+  document.getElementById("btnSortear").disabled = true;
   document.getElementById("btnJogar").disabled = false;
 
   // exibirOpcoes();
@@ -49,18 +52,18 @@ function obtemAtributoSelecionado() {
 
 
 function jogar() {
-  let atributoSelecionado = obtemAtributoSelecionado();
-  let divResultado = document.getElementById("resultado");
+  const atributoSelecionado = obtemAtributoSelecionado();
+  const divResultado = document.getElementById("resultado");
 
 
   if (cartaJogador.atributes[atributoSelecionado] > cartaMaquina.atributes[atributoSelecionado]) {
     placar[0]++;
-    htmlResultado = "<p class='resultado-final'>Venceu</p>";
+    htmlResultado = "<p class='resultado-final'>Você ganhou!</p>";
     finalizarJogo();
   } 
   else if (cartaMaquina.atributes[atributoSelecionado] > cartaJogador.atributes[atributoSelecionado]) {
     placar[1]++;
-    htmlResultado = "<p class='resultado-final'>Perdeu</p>";
+    htmlResultado = "<p class='resultado-final'>Você perdeu!</p>";
     finalizarJogo();
   } 
   else if (isNaN(cartaJogador.atributes[atributoSelecionado])) {
@@ -109,7 +112,7 @@ function exibirCartaMaquina() {
   let atributos = "";
   for (let atributo in cartaMaquina.atributes) {
     atributos += `
-      <label class="radio-grupo">
+      <label class="radio-grupo radio-grupo-maquina">
         <input type="radio" name="atributo-maquina" value="${atributo}" disabled>
         ${(cartaMaquina.atributes[atributo]).toString().padStart(2, 0)} - ${atributo.toUpperCase()}
       </label>
@@ -122,8 +125,8 @@ function exibirPlacar() {
   const placarJogador = document.getElementById("placarJogador");
   const placarComputador = document.getElementById("placarComputador");
 
-  placarJogador.innerHTML = `👑 Jogador: ${placar[0]}`;
-  placarComputador.innerHTML = `👾 Computador: ${placar[1]}`;
+  placarJogador.innerHTML = ` Jogador: ${placar[0]}`;
+  placarComputador.innerHTML = ` Computador: ${placar[1]}`;
 }
 
 function zerarCarta(id) {

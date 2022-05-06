@@ -20,11 +20,13 @@ header {
 }
 
 .nome-projeto {
-  color: #fff;
-  padding: 20px;
+  padding: 10px;
   margin: 5px 0;
   font-size: 45px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: #007783 0.1em 0.1em 0.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -34,7 +36,8 @@ main {
 }
 
 /* CARD */
-.container-card, .container-placar {
+.container-card,
+.container-placar {
   flex: 2;
   align-items: center;
   display: flex;
@@ -47,7 +50,7 @@ main {
 }
 
 .card .radio-grupo {
-  background-color: #705631;
+  background-color: #0c151cab;
   border-radius: 6px;
   padding: 10px 2px;
   margin: 10px 0;
@@ -56,25 +59,26 @@ main {
 }
 
 .radio-grupo:hover {
-  background-color: blue;
+  background-color: #0e151bcc;
 }
 
-.radio-grupo-maquina:hover {
-  background-color: #705631;
-  cursor: default;
-}
 
 .radio-grupo * {
   cursor: pointer;
 }
 
+.radio-grupo-maquina:hover {
+  background-color: #0c151cab !important;
+  cursor: default;
+}
+
 .card {
   min-height: 400px;
   width: 300px;
-  border: rgb(197,146,41) solid 5px;
+  border: #122833 solid 6px;
   border-radius: 6px;
   padding: 10px;
-  background: linear-gradient(90deg, rgba(197,146,41,1) 35%, rgba(138,93,24, 0.8) 100%);
+  background: linear-gradient( to right, #013743, #007783, #007783, #013743 ) rgb(19 38 53);
 }
 
 .card img {
@@ -96,6 +100,8 @@ main {
   width: 100%;
   height: 40px;
   border-radius: 6px;
+  /* background: #007783;
+  color: white; */
 }
 
 .placar {
@@ -104,6 +110,19 @@ main {
   border: #705631 solid 6px;
   text-align: center;
   margin: 20px;
+  border-radius: 6px;
+  background-color: rgba(15, 22, 28, 0.8);
+}
+
+.placar p {
+  font-size: large;
+  font-weight: 400;
+  padding: 20px;
+  color: #fff;
+}
+
+.titulo-placar {
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #013743, 0 0 0.2em #013743
 }
 
 /* FOOTER */
@@ -123,9 +142,10 @@ footer {
   align-items: center;
 }
 
-.info-lab a, .sobre-nos * {
+.info-lab a,
+.sobre-nos * {
   color: #705631;
-  
+
 }
 
 .logo-rodape-lol {
@@ -152,4 +172,10 @@ footer {
 
 #resultado {
   height: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
 }
+
+/*  background: linear-gradient(90deg, rgba(197,146,41,1) 35%, rgba(138,93,24, 0.8) 100%); */
