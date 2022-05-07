@@ -157,8 +157,14 @@ footer {
 }
 
 .sobre-nos p a {
+  margin-bottom: 3px;
   color: #fff;
   font-size: 14px;
+}
+
+.sobre-nos li {
+  margin-top: 3px;
+  font-size: 13px;
 }
 
 .logo-rodape {
