@@ -10,15 +10,14 @@ export const carta1 = {
   }
 };
 
-export const carta2 = {
-  name: "Ahri",
+export const carta24 = {
+  name: "Jhin",
   img:
-    "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+  "https://www.masterypoints.com/assets/img/lol/champion_icons/Jhin.png",
   atributes: {
-    attack: 3,
-    defense: 4,
-    magic: 8,
-
+    attack: 10,
+    defense: 2,
+    magic: 6,
   }
 };
 
@@ -44,7 +43,7 @@ export const carta4 = {
     magic: 5,
 
   }
-}
+};
 
 export const carta5 = {
   name: "Ahri",
@@ -55,7 +54,7 @@ export const carta5 = {
     defense: 4,
     magic: 8,
   }
-}
+};
 
 export const carta6 = {
   name: "Cassiopeia",
@@ -66,7 +65,7 @@ export const carta6 = {
     defense: 3,
     magic: 9,
   }
-}
+};
 
 export const carta7 = {
   name: "Diana",
@@ -77,7 +76,7 @@ export const carta7 = {
     defense: 6,
     magic: 8,
   }
-}
+};
 
 export const carta8 = {
   name: "FiddleSticks",
@@ -88,7 +87,7 @@ export const carta8 = {
     defense: 3,
     magic: 9,
   }
-}
+};
 
 export const carta9 = {
   name: "Jax",
@@ -99,7 +98,7 @@ export const carta9 = {
     defense: 5,
     magic: 7,
   }
-}
+};
 
 export const carta10 = {
   name: "Kayle",
@@ -110,7 +109,7 @@ export const carta10 = {
     defense: 6,
     magic: 7,
   }
-}
+};
 
 export const carta11 = {
   name: "Master Yi",
@@ -121,7 +120,7 @@ export const carta11 = {
     defense: 4,
     magic: 2,
   }
-}
+};
 
 export const carta12 = {
   name: "Morgana",
@@ -132,7 +131,7 @@ export const carta12 = {
     defense: 6,
     magic: 8
   }
-}
+};
 
 export const carta13 = {
   name: "Nunu",
@@ -143,7 +142,7 @@ export const carta13 = {
     defense: 6,
     magic: 7,
   }
-}
+};
 
 export const carta14 = {
   name: "Ryze",
@@ -154,7 +153,7 @@ export const carta14 = {
     defense: 2,
     magic: 10,
   }
-}
+};
 
 export const carta15 = {
   name: "Sion",
@@ -165,7 +164,7 @@ export const carta15 = {
     defense: 9,
     magic: 3
   }
-}
+};
 
 export const carta16 = {
   name: "Sivir",
@@ -176,7 +175,7 @@ export const carta16 = {
     defense: 3,
     magic: 1,
   }
-}
+};
 
 export const carta17 = {
   name: "Soraka",
@@ -187,7 +186,7 @@ export const carta17 = {
     defense: 5,
     magic: 7,
   }
-}
+};
 
 export const carta18 = {
   name: "Teemo",
@@ -198,7 +197,7 @@ export const carta18 = {
     defense: 3,
     magic: 7,
   }
-}
+};
 
 export const carta19 = {
   name: "Twisted Fate",
@@ -209,7 +208,7 @@ export const carta19 = {
     defense: 2,
     magic: 6,
   }
-}
+};
 
 export const carta20 = {
   name: "Warwick",
@@ -220,7 +219,7 @@ export const carta20 = {
     defense: 4,
     magic: 4,
   }
-}
+};
 
 export const carta21 = {
   name: "Yasuo",
@@ -231,7 +230,7 @@ export const carta21 = {
     defense: 4,
     magic: 4,
   }
-}
+};
 
 export const carta22 = {
   name: "Lucian",
@@ -242,7 +241,7 @@ export const carta22 = {
     defense: 5,
     magic: 3,
   }
-}
+};
 
 export const carta23 = {
   name: "Rengar",
@@ -253,15 +252,4 @@ export const carta23 = {
     defense: 4,
     magic: 2,
   }
-}
-
-export const carta24 = {
-  name: "Jhin",
-  img:
-  "https://www.masterypoints.com/assets/img/lol/champion_icons/Jhin.png",
-  atributes: {
-    attack: 10,
-    defense: 2,
-    magic: 6,
-  }
-}
+};
