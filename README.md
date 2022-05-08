@@ -1,22 +1,46 @@
-![titulo e imagem da capa](/src/img/logo.png)
+<div align="center">
 
+![titulo e imagem da capa](./src/images/nome-projeto-readme.png)
+
+</div>
 
 ## Índice
 
-- [🎮 Super Trunfo - League of Legends](#-super-trunfo---league-of-legends)
-  - [💻 Descrição do projeto](#-descrição-do-projeto)
-  - [Status do Projeto](#status-do-projeto)
-  - [🛠 Funcionalidades do projeto](#-funcionalidades-do-projeto)
-  - [Acesso ao projeto](#acesso-ao-projeto)
-  - [🎨 Prototipo de alta Fidelidade](#-prototipo-de-alta-fidelidade)
-  - [⚙ Ferramentas Utilizadas](#-ferramentas-utilizadas)
-  - [Desenvolvedoras](#desenvolvedoras)
+  - [1. Super Trunfo - League of Legends](#-super-trunfo---league-of-legends)
+  - [2. Refatoração do projeto](#-refatoração-do-projeto)
+  - [3. Descrição do projeto](#-descrição-do-projeto)
+  - [ Status do Projeto](#status-do-projeto)
+  - [ Funcionalidades do projeto](#-funcionalidades-do-projeto)
+  - [ Acesso ao projeto](#acesso-ao-projeto)
+  - [ Prototipo de alta Fidelidade](#-prototipo-de-alta-fidelidade)
+  - [ Ferramentas Utilizadas](#-ferramentas-utilizadas)
+  - [ Desenvolvedoras](#desenvolvedoras)
 
 
-# 🎮 Super Trunfo - League of Legends
+# 1. Super Trunfo - League of Legends
+ 
+A [Laboratoria](https://www.laboratoria.la/br) nos desafiou a escolher o [projeto](https://github.com/Laboratoria/SAP007-data-lovers) de uma das integrantes do grupo, projeto esse que foi entregue em outro momento do Bootcamp e desenvolver um produto novo a partir dele. Fizemos uma pesquisa de usuário onde nos levou criar um jogo de cartas utilizando os personagens do Leage Of Legends baseado no [projeto](https://vanessavb92.github.io/SAP007-data-lovers/src/) da Vanessa. 
+Foi então que surgiu o [SuperTrunfo Lol](https://juliabb.github.io/super-trunfo-lol/). Ele é um jogo de cartas que se baseia na comparação dos valores da carta do usuário com os valores da carta do adversário. E para vencer, a característica escolhida precisa ter valor maior do que o atributo escolhido pelo adversário, no caso, o usuário estará jogando contra a máquina.<br>
 
- ## 💻 Descrição do projeto
-O desafio consiste em criar o jogo de cartas super trunfo, que coloca duas cartas diferentes com atributos para batalhar, dependendo do atributo, vence a carta que tiver o maior valor.
+## Desenvolvido por:
+[Dayane Maryssol](https://www.linkedin.com/in/dayannemaryssol/), [Julia Benedicto](https://www.linkedin.com/in/julia-cruz-7aa339183/), [Keila Hadama](https://www.linkedin.com/in/keila-hadama/), [Taila Martins](https://www.linkedin.com/in/taila-martins/), [Thais Bonalume](https://www.linkedin.com/in/thais-moreira-jesus-bonalume/) e [Vanessa Borges](https://www.linkedin.com/in/vanessa-borges-a05b4636/).
+
+---
+
+ ## Refatoração do projeto
+
+A refatoração do projeto foi feita após um teste de usabilidade, onde os participantes realizaram tarefas típicas enquanto nós obervamos e anotamos. O projeto apresentado para tal teste foi esse(https://juliabb.github.io/super-trunfo-lol/).<br>
+
+![titulo e imagem da capa](./src/images/projeto-antigo-layout.png)
+
+As perguntas feitas foram:
+
+O que você achou do layout?
+A jogabilidade foi fácil?
+É compreensível o modo de jogo?
+Há algo que você gostaria que mudassêmos?
+
+
 
 ![imagem da pagina web](/image.png)
 
@@ -67,7 +91,7 @@ Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
 
 
-
+Como implementação futura. a gente quer adicionar um segundo player 
 
 
 
