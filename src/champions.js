@@ -203,7 +203,7 @@ export const carta18 = {
 export const carta19 = {
   name: "Twisted Fate",
   img:
-  "https://www.masterypoints.com/assets/img/lol/champion_icons/Maokai.png"
+  "https://www.masterypoints.com/assets/img/lol/champion_icons/Maokai.png",
   atributes: {
     attack: 6,
     defense: 2,
