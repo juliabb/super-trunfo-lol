@@ -46,7 +46,7 @@ Para a construção desse projeto foram utilizadas as seguintes ferramentas:
 
 
 ## Desenvolvedoras
-👩[Dayane Marrysol](https://www.linkedin.com/in/dayannemaryssol/)
+👩[Dayanne Maryssol](https://www.linkedin.com/in/dayannemaryssol/)
 
 👩[Julia Benedicto](https://www.linkedin.com/in/julia-cruz-7aa339183/)
 
