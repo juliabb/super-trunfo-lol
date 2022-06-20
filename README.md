@@ -61,7 +61,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 <table>
 <td>
   <div align= "center">
-    <img alt="Dayanne Maryssol" height="150" src="https://avatars.githubusercontent.com/u/92697749?v=4"> 
+    <img alt="Dayanne Maryssol"  src="https://avatars.githubusercontent.com/u/92697749?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/Maryssun">Dayanne</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
@@ -73,7 +73,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 
 <td>
   <div align= "center">
-    <img alt="Julia Benedicto" height="150" src="https://avatars.githubusercontent.com/u/68789655?v=4"> 
+    <img alt="Julia Benedicto"  src="https://avatars.githubusercontent.com/u/68789655?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/juliabb">Julia</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
@@ -85,7 +85,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 
 <td>
   <div align= "center">
-    <img alt="Keila Hadama" height="150" src="https://avatars.githubusercontent.com/u/88164568?v=4"> 
+    <img alt="Keila Hadama"  src="https://avatars.githubusercontent.com/u/88164568?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/hadamakei">Keila</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
@@ -96,7 +96,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 
 <td>
     <div align= "center">
-    <img alt="Taila Martins" height="150" src="https://avatars.githubusercontent.com/u/97704692?v=4"> 
+    <img alt="Taila Martins"  src="https://avatars.githubusercontent.com/u/97704692?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/TailaMartins">Taila</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
@@ -107,7 +107,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 
 <td>
     <div align= "center">
-    <img alt="Thais Bonalume" height="150" src="https://avatars.githubusercontent.com/u/65199369?v=4"> 
+    <img alt="Thais Bonalume"  src="https://avatars.githubusercontent.com/u/65199369?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/moreirathais">Thais</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
@@ -118,7 +118,7 @@ O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.
 
 <td>
     <div align= "center">
-    <img alt="Vanessa Borges" height="150" src="https://avatars.githubusercontent.com/u/89863244?v=4"> 
+    <img alt="Vanessa Borges"  src="https://avatars.githubusercontent.com/u/89863244?v=4"> 
   </div>
   <h3 align="center"><a href="https://github.com/vanessavb92">Vanessa</a></h3>
   <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
