@@ -31,7 +31,7 @@ Para jogar, clique [aqui](https://juliabb.github.io/super-trunfo-lol/).
 
 A aplicação foi desenvolvida pensando nos fãs e suas necessidades de jogar um jogo clássico. Focando no interesse em conhecer mais sobre os campeões. Levando em consideração a funcionalidade, acessibilidade e a experiência como um todo. O jogo foi idealizado para desktop porque o público-alvo que gostaríamos de atingir eram os gamers de LOL e o jogo online é para computador. 
 
-<!-- Colocar história de usuário aqui  -->
+![História de Usuário](src/img/historia-usuario.png)
 
 ---
 
@@ -39,7 +39,7 @@ A aplicação foi desenvolvida pensando nos fãs e suas necessidades de jogar um
 
 O prototipo foi desenvolvido ultilizando a ferramenta [Figma](https://www.figma.com/file/xRhpBQkoFxHq0yLPZ1eSBy/Untitled)
 
-<!-- ![Prototipo](INSIRA IMAGENS DO PROTOTIPO) -->
+![Prototipo](src/img/trunfo-desktop.png)
 
 ---
 
